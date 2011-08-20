@@ -1,3 +1,5 @@
+.h1 Consortium
+  
 %p#notice= notice
 
 %p
@@ -6,6 +8,20 @@
 %p
   %b Address:
   = @consortium.address
+%p
+  %b Administration:
+  = link_to @consortium.administration.name, administration_path(@consortium.administration)
+%p
+  %b Functional units
+%table
+  %tr
+    %th name
+    %th
+  - @consortium.functional_units.each do |functional_unit|
+    %tr
+      %td= functional_unit.owner.last_name + ', ' + functional_unit.owner.first_name
+      %td= functional_unit.location
+      %td= link_to 'ver', functional_unit_path(functional_unit)
 
 = link_to 'Edit', edit_consortium_path(@consortium)
 \|

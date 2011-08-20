@@ -3,6 +3,19 @@
 %p
   %b Name:
   = @franchise.name
+%p
+  %b Company:
+  = link_to @franchise.company.name, company_path(@franchise.company)
+%p
+  %b Administrations
+%table
+  %tr
+    %th name
+    %th
+  - @franchise.administrations.each do |administration|
+    %tr
+      %td= administration.name
+      %td= link_to 'ver', administration_path(administration)
 
 = link_to 'Edit', edit_franchise_path(@franchise)
 \|

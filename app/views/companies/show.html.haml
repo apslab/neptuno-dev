@@ -9,6 +9,16 @@
 %p
   %b Cuit:
   = @company.cuit
+%p
+  %b Franchises
+%table
+  %tr
+    %th name
+    %th
+  - @company.franchises.each do |franchise|
+    %tr
+      %td= franchise.name
+      %td= link_to 'ver', franchise_path(franchise)
 
 = link_to 'Edit', edit_company_path(@company)
 \|
