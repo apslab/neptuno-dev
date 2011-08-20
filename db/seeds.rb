@@ -12,7 +12,7 @@ piso = 1
 last_names.each do |last_name|
   dpto = 1
   first_names.each do |first_name|
-     Functional_unit.create!(:location => 'piso ' piso.to_s + 'dpto ' + dpto.to_s,
+     Functional_unit.create!(:location => 'piso ' + piso.to_s + 'dpto ' + dpto.to_s,
      :owner_id => Owner.create!(:last_name => last_name,:first_name => first_name).id )
      ++dpto
   end
