@@ -18,6 +18,7 @@
       %td= link_to 'Edit', edit_functional_unit_path(functional_unit)
       %td= link_to 'Destroy', functional_unit, :confirm => 'Are you sure?', :method => :delete
 
+= paginate(@functional_units)
 %br
 
 = link_to 'New Functional unit', new_functional_unit_path

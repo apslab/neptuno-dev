@@ -2,7 +2,7 @@ class FunctionalUnitsController < ApplicationController
   # GET /functional_units
   # GET /functional_units.xml
   def index
-    @functional_units = FunctionalUnit.all
+    @functional_units = FunctionalUnit.order(:owner_id).page(params[ :page ]).per(20)
 
     respond_to do |format|
       format.html # index.html.erb
