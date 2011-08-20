@@ -1,0 +1,23 @@
+%h1 Listing consortia
+
+%table
+  %tr
+    %th Name
+    %th Address
+    %th Administration
+    %th
+    %th
+    %th
+
+  - @consortia.each do |consortium|
+    %tr
+      %td= consortium.name
+      %td= consortium.address
+      %td= consortium.administration.try('name')
+      %td= link_to 'Show', consortium
+      %td= link_to 'Edit', edit_consortium_path(consortium)
+      %td= link_to 'Destroy', consortium, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Consortium', new_consortium_path

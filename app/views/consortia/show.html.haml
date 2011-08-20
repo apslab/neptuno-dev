@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @consortium.name
+%p
+  %b Address:
+  = @consortium.address
+
+= link_to 'Edit', edit_consortium_path(@consortium)
+\|
+= link_to 'Back', consortia_path

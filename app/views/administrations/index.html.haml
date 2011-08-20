@@ -1,0 +1,23 @@
+%h1 Listing administrations
+
+%table
+  %tr
+    %th Name
+    %th Address
+    %th Franchise
+    %th
+    %th
+    %th
+
+  - @administrations.each do |administration|
+    %tr
+      %td= administration.name
+      %td= administration.address
+      %td= administration.franchise.try('name')
+      %td= link_to 'Show', administration
+      %td= link_to 'Edit', edit_administration_path(administration)
+      %td= link_to 'Destroy', administration, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Administration', new_administration_path

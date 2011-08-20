@@ -1,0 +1,15 @@
+= semantic_form_for @administration do |f|
+  = f.semantic_errors
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :address
+    = f.text_field :address
+  .field
+    = f.label :franchise
+    = f.input :franchise_id, :label => true, :as => :select, :collection => Franchise.all.map{|c| [c.name, c.id]}, :include_blank => false
+
+  .actions
+    = f.submit 'Save'

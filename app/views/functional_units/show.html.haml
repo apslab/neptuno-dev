@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Owner:
+  = @functional_unit.owner.last_name + ', ' + @functional_unit.owner.first_name
+%p
+  %b Location:
+  = @functional_unit.location
+
+= link_to 'Edit', edit_functional_unit_path(@functional_unit)
+\|
+= link_to 'Back', functional_units_path

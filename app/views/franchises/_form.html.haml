@@ -1,0 +1,12 @@
+= semantic_form_for @franchise do |f|
+  = f.semantic_errors
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :company
+    = f.input :company_id, :label => true, :as => :select, :collection => Company.all.map{|c| [c.name, c.id]}, :include_blank => false
+
+  .actions
+    = f.submit 'Save'

@@ -1,0 +1,23 @@
+%h1 Listing functional_units
+
+%table
+  %tr
+    %th Owner
+    %th Location
+    %th Consortium
+    %th
+    %th
+    %th
+
+  - @functional_units.each do |functional_unit|
+    %tr
+      %td= functional_unit.owner.last_name + ', ' + functional_unit.owner.last_name
+      %td= functional_unit.location
+      %td= functional_unit.consortium.try('name')
+      %td= link_to 'Show', functional_unit
+      %td= link_to 'Edit', edit_functional_unit_path(functional_unit)
+      %td= link_to 'Destroy', functional_unit, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Functional unit', new_functional_unit_path

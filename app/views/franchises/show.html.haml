@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @franchise.name
+
+= link_to 'Edit', edit_franchise_path(@franchise)
+\|
+= link_to 'Back', franchises_path

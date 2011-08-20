@@ -1,0 +1,14 @@
+= semantic_form_for @functional_unit do |f|
+  = f.semantic_errors
+
+  .field
+    = f.label :owner
+    = f.input :owner_id, :label => true, :as => :select, :collection => Owner.all.map{|c| [c.last_name, c.id]}, :include_blank => false
+  .field
+    = f.label :location
+    = f.text_field :location
+  .field
+    = f.label :consortium
+    = f.input :consortium_id, :label => true, :as => :select, :collection => Consortium.all.map{|c| [c.name, c.id]}, :include_blank => false
+  .actions
+    = f.submit 'Save'

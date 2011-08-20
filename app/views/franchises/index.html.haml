@@ -1,0 +1,21 @@
+%h1 Listing franchises
+
+%table
+  %tr
+    %th Name
+    %th Company
+    %th
+    %th
+    %th
+
+  - @franchises.each do |franchise|
+    %tr
+      %td= franchise.name
+      %td= franchise.company.try('name')
+      %td= link_to 'Show', franchise
+      %td= link_to 'Edit', edit_franchise_path(franchise)
+      %td= link_to 'Destroy', franchise, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Franchise', new_franchise_path
