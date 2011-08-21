@@ -2,7 +2,7 @@ class OwnersController < ApplicationController
   # GET /owners
   # GET /owners.xml
   def index
-    @owners = Owner.order(:last_name).page(params[ :page ]).per(20)
+    @owners = Owner.order(:last_name).page(params[ :page ]).per(15)
 
     respond_to do |format|
       format.html # index.html.erb
