@@ -1,14 +1,11 @@
 %h1 Listing companies
 
-%table
+%table.tableStandard
   %tr
     %th Name
     %th Address
     %th Cuit
-    %th
-    %th
-    %th
-
+    %th{ :colspan => '3', :style => "text-align:center;"} Actions
   - @companies.each do |company|
     %tr
       %td= company.name

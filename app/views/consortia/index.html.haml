@@ -1,14 +1,11 @@
 %h1 Listing consortia
 
-%table
+%table.tableStandard
   %tr
     %th Name
     %th Address
     %th Administration
-    %th
-    %th
-    %th
-
+    %th{ :colspan => '3', :style => "text-align:center;"} Actions
   - @consortia.each do |consortium|
     %tr
       %td= consortium.name

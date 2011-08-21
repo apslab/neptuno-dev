@@ -13,9 +13,10 @@
   = link_to @consortium.administration.name, administration_path(@consortium.administration)
 %p
   %b Functional units
-%table
+%table.tableStandard
   %tr
     %th name
+    %th location
     %th
   - @consortium.functional_units.each do |functional_unit|
     %tr

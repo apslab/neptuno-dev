@@ -1,14 +1,11 @@
 %h1 Listing customers
 
-%table
+%table.tableStandard
   %tr
     %th Name
     %th Address
     %th Cuit
-    %th
-    %th
-    %th
-
+    %th{ :colspan => '3', :style => "text-align:center;"} Actions
   - @customers.each do |customer|
     %tr
       %td= customer.name

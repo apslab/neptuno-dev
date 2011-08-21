@@ -1,13 +1,10 @@
 %h1 Listing franchises
 
-%table
+%table.tableStandard
   %tr
     %th Name
     %th Company
-    %th
-    %th
-    %th
-
+    %th{ :colspan => '3', :style => "text-align:center;"} Actions
   - @franchises.each do |franchise|
     %tr
       %td= franchise.name
