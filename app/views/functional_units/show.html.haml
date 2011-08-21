@@ -7,6 +7,9 @@
 %p
   %b Location:
   = @functional_unit.location
+%p
+  %b Consortium:
+  = link_to @functional_unit.consortium.name, consortium_path(@functional_unit.consortium)
 
 = link_to 'Edit', edit_functional_unit_path(@functional_unit)
 \|
