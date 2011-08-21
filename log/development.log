@@ -13627,3 +13627,1507 @@ ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
   
 
 Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:44:17 -0300
+  Processing by FunctionalUnitsController#index as HTML
+  [1m[35mFunctionalUnit Load (25.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1[0m
+  [1m[35mConsortium Load (1.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (328.0ms)
+Completed 200 OK in 382ms (Views: 328.0ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:44:18 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:44:18 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:45:48 -0300
+  Processing by OwnersController#index as HTML
+  [1m[35mOwner Load (26.0ms)[0m  SELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+Rendered owners/index.html.haml within layouts/application (211.0ms)
+Completed 200 OK in 265ms (Views: 217.0ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:45:48 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:45:48 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:46:37 -0300
+  Processing by OwnersController#index as 
+  [1m[35mOwner Load (27.0ms)[0m  SELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+Rendered owners/index.html.haml within layouts/application (191.0ms)
+Completed 200 OK in 244ms (Views: 195.0ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:46:38 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:46:38 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/companies" for 127.0.0.1 at 2011-08-20 22:46:45 -0300
+  Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (1.0ms)[0m  SELECT "companies".* FROM "companies"
+Rendered companies/index.html.haml within layouts/application (20.0ms)
+Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:46:45 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:46:45 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/franchises" for 127.0.0.1 at 2011-08-20 22:46:49 -0300
+  Processing by FranchisesController#index as HTML
+  [1m[36mFranchise Load (1.0ms)[0m  [1mSELECT "franchises".* FROM "franchises"[0m
+  [1m[35mCompany Load (1.0ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (1.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1[0m
+Rendered franchises/index.html.haml within layouts/application (102.0ms)
+Completed 200 OK in 158ms (Views: 134.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:46:49 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:46:49 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2011-08-20 22:46:55 -0300
+  Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers"
+Rendered customers/index.html.haml within layouts/application (48.0ms)
+Completed 200 OK in 139ms (Views: 118.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:46:55 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:46:55 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/administrations" for 127.0.0.1 at 2011-08-20 22:47:10 -0300
+  Processing by AdministrationsController#index as HTML
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations"[0m
+  [1m[35mFranchise Load (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1[0m
+  [1m[35mFranchise Load (1.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1[0m
+  [1m[35mFranchise Load (1.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1[0m
+  [1m[35mFranchise Load (1.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1[0m
+  [1m[35mFranchise Load (1.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1[0m
+  [1m[35mFranchise Load (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1[0m
+Rendered administrations/index.html.haml within layouts/application (106.0ms)
+Completed 200 OK in 163ms (Views: 137.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:47:10 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:47:10 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/consortia" for 127.0.0.1 at 2011-08-20 22:47:16 -0300
+  Processing by ConsortiaController#index as HTML
+  [1m[35mConsortium Load (3.0ms)[0m  SELECT "consortia".* FROM "consortia"
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+Rendered consortia/index.html.haml within layouts/application (330.0ms)
+Completed 200 OK in 390ms (Views: 355.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:47:17 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:47:17 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:47:30 -0300
+  Processing by FunctionalUnitsController#index as HTML
+  [1m[36mFunctionalUnit Load (25.0ms)[0m  [1mSELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1
+  [1m[36mConsortium Load (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT COUNT(*) FROM "functional_units"
+Rendered functional_units/index.html.haml within layouts/application (358.0ms)
+Completed 200 OK in 414ms (Views: 361.0ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:47:31 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:47:31 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:47:37 -0300
+  Processing by OwnersController#index as HTML
+  [1m[36mOwner Load (26.0ms)[0m  [1mSELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT COUNT(*) FROM "owners"
+Rendered owners/index.html.haml within layouts/application (219.0ms)
+Completed 200 OK in 278ms (Views: 227.0ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:47:37 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:47:37 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/consortia" for 127.0.0.1 at 2011-08-20 22:48:49 -0300
+  Processing by ConsortiaController#index as HTML
+  [1m[36mConsortium Load (3.0ms)[0m  [1mSELECT "consortia".* FROM "consortia"[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+Rendered consortia/index.html.haml within layouts/application (324.0ms)
+Completed 200 OK in 387ms (Views: 348.0ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:48:49 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:48:49 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/administrations" for 127.0.0.1 at 2011-08-20 22:50:31 -0300
+  Processing by AdministrationsController#index as HTML
+  [1m[35mAdministration Load (2.0ms)[0m  SELECT "administrations".* FROM "administrations"
+  [1m[36mFranchise Load (1.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 1 LIMIT 1
+  [1m[36mFranchise Load (1.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 2 LIMIT 1
+  [1m[36mFranchise Load (1.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 3 LIMIT 1
+  [1m[36mFranchise Load (1.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 4 LIMIT 1
+  [1m[36mFranchise Load (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 5 LIMIT 1
+  [1m[36mFranchise Load (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "franchises".* FROM "franchises" WHERE "franchises"."id" = 6 LIMIT 1
+Rendered administrations/index.html.haml within layouts/application (139.0ms)
+Completed 200 OK in 199ms (Views: 169.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:50:32 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:50:32 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/consortia" for 127.0.0.1 at 2011-08-20 22:50:35 -0300
+  Processing by ConsortiaController#index as HTML
+  [1m[36mConsortium Load (3.0ms)[0m  [1mSELECT "consortia".* FROM "consortia"[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 1 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 2 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 3 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 4 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 5 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 6 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 7 LIMIT 1
+  [1m[36mAdministration Load (1.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 8 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 9 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 10 LIMIT 1[0m
+  [1m[35mAdministration Load (1.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 11 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 12 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 13 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 14 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 15 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 16 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 17 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 18 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 19 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 20 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 21 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 22 LIMIT 1[0m
+  [1m[35mAdministration Load (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 23 LIMIT 1
+  [1m[36mAdministration Load (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "administrations".* FROM "administrations" WHERE "administrations"."id" = 24 LIMIT 1[0m
+Rendered consortia/index.html.haml within layouts/application (326.0ms)
+Completed 200 OK in 386ms (Views: 353.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:50:36 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:50:36 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:51:09 -0300
+  Processing by OwnersController#index as HTML
+  [1m[35mSQL (6.0ms)[0m  SELECT COUNT(*) FROM "owners"
+  [1m[36mOwner Load (19.0ms)[0m  [1mSELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "owners"
+Rendered owners/index.html.haml within layouts/application (321.0ms)
+Completed 200 OK in 377ms (Views: 329.0ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:51:10 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:51:10 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:51:43 -0300
+  Processing by OwnersController#index as 
+  [1m[36mSQL (6.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+  [1m[35mOwner Load (20.0ms)[0m  SELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+Rendered owners/index.html.haml within layouts/application (318.0ms)
+Completed 200 OK in 372ms (Views: 326.0ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:51:43 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:51:43 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:51:54 -0300
+  Processing by OwnersController#index as 
+  [1m[35mSQL (5.0ms)[0m  SELECT COUNT(*) FROM "owners"
+  [1m[36mOwner Load (19.0ms)[0m  [1mSELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "owners"
+Rendered owners/index.html.haml within layouts/application (336.0ms)
+Completed 200 OK in 389ms (Views: 346.0ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:51:54 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:51:54 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:52:13 -0300
+  Processing by OwnersController#index as 
+  [1m[36mSQL (5.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+  [1m[35mOwner Load (19.0ms)[0m  SELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+Rendered owners/index.html.haml within layouts/application (415.0ms)
+Completed 200 OK in 470ms (Views: 425.0ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:52:14 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:52:14 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:52:28 -0300
+  Processing by OwnersController#index as 
+  [1m[35mSQL (5.0ms)[0m  SELECT COUNT(*) FROM "owners"
+  [1m[36mOwner Load (20.0ms)[0m  [1mSELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "owners"
+Rendered owners/index.html.haml within layouts/application (287.0ms)
+Completed 200 OK in 375ms (Views: 295.0ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:52:29 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:52:29 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:52:45 -0300
+  Processing by OwnersController#index as 
+  [1m[36mSQL (6.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+  [1m[35mOwner Load (19.0ms)[0m  SELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "owners"[0m
+Rendered owners/index.html.haml within layouts/application (382.0ms)
+Completed 200 OK in 436ms (Views: 391.0ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:52:45 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:52:45 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/owners" for 127.0.0.1 at 2011-08-20 22:52:54 -0300
+  Processing by OwnersController#index as 
+  [1m[35mSQL (7.0ms)[0m  SELECT COUNT(*) FROM "owners"
+  [1m[36mOwner Load (19.0ms)[0m  [1mSELECT "owners".* FROM "owners" ORDER BY last_name LIMIT 20 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "owners"
+Rendered owners/index.html.haml within layouts/application (323.0ms)
+Completed 200 OK in 377ms (Views: 331.0ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:52:55 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:52:55 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:53:39 -0300
+  Processing by FunctionalUnitsController#index as HTML
+  [1m[36mSQL (6.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+  [1m[35mFunctionalUnit Load (17.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1[0m
+  [1m[35mConsortium Load (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (499.0ms)
+Completed 200 OK in 553ms (Views: 507.0ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:53:39 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:53:39 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units/7" for 127.0.0.1 at 2011-08-20 22:53:47 -0300
+  Processing by FunctionalUnitsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mFunctionalUnit Load (1.0ms)[0m  SELECT "functional_units".* FROM "functional_units" WHERE "functional_units"."id" = 7 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mConsortium Load (1.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+Rendered functional_units/show.html.haml within layouts/application (134.0ms)
+Completed 200 OK in 194ms (Views: 167.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:53:47 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:53:47 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:53:49 -0300
+  Processing by FunctionalUnitsController#index as 
+  [1m[36mSQL (6.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+  [1m[35mFunctionalUnit Load (17.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1[0m
+  [1m[35mConsortium Load (1.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (530.0ms)
+Completed 200 OK in 584ms (Views: 533.0ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:53:50 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:53:50 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units/7" for 127.0.0.1 at 2011-08-20 22:53:56 -0300
+  Processing by FunctionalUnitsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mFunctionalUnit Load (0.0ms)[0m  SELECT "functional_units".* FROM "functional_units" WHERE "functional_units"."id" = 7 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mConsortium Load (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+Rendered functional_units/show.html.haml within layouts/application (133.0ms)
+Completed 200 OK in 192ms (Views: 166.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:53:56 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:53:56 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:53:59 -0300
+  Processing by FunctionalUnitsController#index as 
+  [1m[36mSQL (7.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+  [1m[35mFunctionalUnit Load (18.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1[0m
+  [1m[35mConsortium Load (1.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (446.0ms)
+Completed 200 OK in 538ms (Views: 451.0ms | ActiveRecord: 30.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:54:00 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:54:00 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/companies" for 127.0.0.1 at 2011-08-20 22:56:03 -0300
+  Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (2.0ms)[0m  SELECT "companies".* FROM "companies"
+Rendered companies/index.html.haml within layouts/application (55.0ms)
+Completed 200 OK in 119ms (Views: 91.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:56:04 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:56:04 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:57:12 -0300
+  Processing by FunctionalUnitsController#index as HTML
+  [1m[36mSQL (5.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+  [1m[35mFunctionalUnit Load (17.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1[0m
+  [1m[35mConsortium Load (1.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (432.0ms)
+Completed 200 OK in 553ms (Views: 467.0ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:57:12 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:57:12 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:57:41 -0300
+  Processing by FunctionalUnitsController#index as 
+  [1m[35mSQL (6.0ms)[0m  SELECT COUNT(*) FROM "functional_units"
+  [1m[36mFunctionalUnit Load (17.0ms)[0m  [1mSELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1
+  [1m[36mConsortium Load (1.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "functional_units"
+Rendered functional_units/index.html.haml within layouts/application (477.0ms)
+Completed 200 OK in 530ms (Views: 479.0ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:57:41 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:57:42 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/functional_units?page=5" for 127.0.0.1 at 2011-08-20 22:57:55 -0300
+  Processing by FunctionalUnitsController#index as HTML
+  Parameters: {"page"=>"5"}
+  [1m[36mSQL (5.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+  [1m[35mFunctionalUnit Load (17.0ms)[0m  SELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 80
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 81 LIMIT 1[0m
+  [1m[35mConsortium Load (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 82 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 83 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 84 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 85 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 86 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 87 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 88 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 89 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 90 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 91 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 92 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 93 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 94 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 95 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 96 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 97 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 98 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 2 LIMIT 1
+  [1m[36mOwner Load (1.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 99 LIMIT 1[0m
+  [1m[35mConsortium Load (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 3 LIMIT 1
+  [1m[36mOwner Load (0.0ms)[0m  [1mSELECT "owners".* FROM "owners" WHERE "owners"."id" = 100 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "functional_units"[0m
+Rendered functional_units/index.html.haml within layouts/application (705.0ms)
+Completed 200 OK in 759ms (Views: 708.0ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:57:56 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:57:56 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/functional_units" for 127.0.0.1 at 2011-08-20 22:58:08 -0300
+  Processing by FunctionalUnitsController#index as 
+  [1m[35mSQL (7.0ms)[0m  SELECT COUNT(*) FROM "functional_units"
+  [1m[36mFunctionalUnit Load (17.0ms)[0m  [1mSELECT "functional_units".* FROM "functional_units" ORDER BY owner_id LIMIT 20 OFFSET 0[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 1 LIMIT 1
+  [1m[36mConsortium Load (1.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 8 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 9 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 10 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 11 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (0.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mOwner Load (1.0ms)[0m  SELECT "owners".* FROM "owners" WHERE "owners"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "consortia".* FROM "consortia" WHERE "consortia"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "functional_units"
+Rendered functional_units/index.html.haml within layouts/application (495.0ms)
+Completed 200 OK in 581ms (Views: 500.0ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-20 22:58:09 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-20 22:58:09 -0300
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)

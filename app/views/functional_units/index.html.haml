@@ -1,5 +1,8 @@
 %h1 Listing functional_units
 
+= paginate(@functional_units)
+%br
+%br
 %table.tableStandard
   %tr
     %th Owner
@@ -15,7 +18,8 @@
       %td= link_to 'Edit', edit_functional_unit_path(functional_unit)
       %td= link_to 'Destroy', functional_unit, :confirm => 'Are you sure?', :method => :delete
 
+%br
 = paginate(@functional_units)
 %br
-
+%br
 = link_to 'New Functional unit', new_functional_unit_path
