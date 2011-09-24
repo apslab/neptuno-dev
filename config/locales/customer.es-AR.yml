@@ -1,0 +1,11 @@
+es-AR:
+  activerecord:
+    models:
+      customer: Clientes
+    attributes:
+      customer:
+        name: Denominación
+        address: Dirección
+        cuit: C.U.I.T.
+        created_at: Creado
+        updated_at: Modificado

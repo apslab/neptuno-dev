@@ -1,0 +1,11 @@
+es-AR:
+  activerecord:
+    models:
+      owner: Dueños
+    attributes:
+      owner:
+        name: Apellido y nombre
+        first_name: Nombre
+        last_name: Apellido
+        created_at: Creado
+        updated_at: Modificado

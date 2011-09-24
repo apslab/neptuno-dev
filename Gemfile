@@ -10,6 +10,8 @@ gem 'rake', '0.8.7'
 
 gem 'sqlite3'
 
+gem 'activeadmin'
+
 # design
 gem 'compass'
 gem 'haml-rails'

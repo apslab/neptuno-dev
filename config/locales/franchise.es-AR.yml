@@ -1,0 +1,11 @@
+es-AR:
+  activerecord:
+    models:
+      franchise: Fanquicia
+    attributes:
+      franchise:
+        name: Denominación
+        image_file_at: Imagen
+        company: Compania
+        created_at: Creado
+        updated_at: Modificado

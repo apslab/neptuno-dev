@@ -1,0 +1,10 @@
+es-AR:
+  activerecord:
+    models:
+      consortium: Consorcios
+    attributes:
+      consortium:
+        name: Denominación
+        address: Dirección
+        created_at: Creado
+        updated_at: Modificado

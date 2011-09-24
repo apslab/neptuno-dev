@@ -1,0 +1,11 @@
+es-AR:
+  activerecord:
+    models:
+      functional_unit: Unidades funcionales
+    attributes:
+      functional_unit:
+        location: Ubicación
+        owner: Dueño
+        consortium: Consorcio
+        created_at: Creado
+        updated_at: Modificado
