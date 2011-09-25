@@ -11,11 +11,9 @@ gem 'rake', '0.8.7'
 gem 'sqlite3'
 
 gem 'activeadmin'
-# gem 'hassle'
 
 # design
 gem 'compass'
-# gem 'haml' # for SASS
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'cocoon'
