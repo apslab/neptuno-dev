@@ -5,7 +5,7 @@ describe "customers/new.html.haml" do
     assign(:customer, stub_model(Customer,
       :name => "MyString",
       :address => "MyString",
-      :cuit => "9.99"
+      :cuit => "MyString"
     ).as_new_record)
   end
 

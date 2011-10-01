@@ -5,7 +5,7 @@ describe "customers/show.html.haml" do
     @customer = assign(:customer, stub_model(Customer,
       :name => "Name",
       :address => "Address",
-      :cuit => "9.99"
+      :cuit => "Cuit"
     ))
   end
 
@@ -16,6 +16,6 @@ describe "customers/show.html.haml" do
     # Run the generator again with the --webrat flag if you want to use webrat matchers
     rendered.should match(/Address/)
     # Run the generator again with the --webrat flag if you want to use webrat matchers
-    rendered.should match(/9.99/)
+    rendered.should match(/Cuit/)
   end
 end

@@ -1,7 +1,11 @@
-%h1 Editing customer
+- content_for(:breadcrumbs) do
+  = breadcrumbs do |breadcrumb|
+    - breadcrumb.item current_company.name.titlecase, root_path
+    - breadcrumb.item t('scaffold.actions.back', :item => Customer.model_name.human).titlecase, customers_path
+    - breadcrumb.item "#{@customer.name.titlecase}", customer_path(@customer), :active => true
+
+- content_for(:controls) do
+  = controls do |control|
+    - control.item t('scaffold.actions.show').titlecase, @customer, :icon => 'application_get'
 
 = render 'form'
-
-= link_to 'Show', @customer
-\|
-= link_to 'Back', customers_path

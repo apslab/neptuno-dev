@@ -1,20 +1,34 @@
-%h1 Listing customers
+- content_for(:breadcrumbs) do
+  = breadcrumbs do |breadcrumb|
+    - breadcrumb.item current_company.name.titlecase, root_path
+    - breadcrumb.item Customer.model_name.human, customers_path
 
-%table.tableStandard
-  %tr
-    %th Name
-    %th Address
-    %th Cuit
-    %th{ :colspan => '3', :style => "text-align:center;"} Actions
-  - @customers.each do |customer|
+.clear
+- if can?(:create, Customer)
+  - content_for(:controls) do
+    = controls do |control|
+      - control.item t('scaffold.actions.new', :item => Customer.model_name.human).titlecase, new_customer_path, :icon => 'add'
+      - control.item t('scaffold.actions.export').titlecase, customers_path( :format => 'pdf'), :icon => 'report_go'
+
+.block
+  - if @customers.any?
+  %table.table
     %tr
-      %td= customer.name
-      %td= customer.address
-      %td= customer.cuit
-      %td= link_to 'Show', customer
-      %td= link_to 'Edit', edit_customer_path(customer)
-      %td= link_to 'Destroy', customer, :confirm => 'Are you sure?', :method => :delete
+      %th= Customer.human_attribute_name('name')
+      %th= Customer.human_attribute_name('address')
+      %th= Customer.human_attribute_name('cuit')
+      %th.last
 
-%br
-
-= link_to 'New Customer', new_customer_path
+    - @customers.each do |customer|
+      %tr
+        %td= customer.name
+        %td= customer.address
+        %td= customer.cuit
+        %td.last.actions
+          = link_to icon('application_get', :small, :title => t('scaffold.actions.show').titlecase), customer
+          = link_to icon('application_edit', :small, :title => t('scaffold.actions.edit').titlecase), edit_customer_path(customer)
+          = link_to icon('application_delete', :small, :title => t('scaffold.actions.destroy').titlecase), customer, :confirm => t('scaffold.actions.destroy_confirm'), :method => :delete
+    .clear
+    .block{:style => 'margin:20px;'}= paginate(@customers)
+    .clear
+.clear

@@ -1,16 +1,17 @@
-%h1 Show Customer
-%p#notice= notice
+- content_for(:breadcrumbs) do
+  = breadcrumbs do |breadcrumb|
+    - breadcrumb.item current_company.name.titlecase, root_path
+    - breadcrumb.item t('scaffold.actions.back', :item => Customer.model_name.human).titlecase, customers_path
+    - breadcrumb.item "#{@customer.name.titlecase}", customer_path(@customer), :active => true
 
-%p
-  %b Name:
-  = @customer.name
-%p
-  %b Address:
-  = @customer.address
-%p
-  %b Cuit:
-  = @customer.cuit
+- content_for(:controls) do
+  = controls do |control|
+    - control.item t('scaffold.actions.edit').titlecase, edit_customer_path(@customer), :icon => 'application_edit'
 
-= link_to 'Edit', edit_customer_path(@customer)
-\|
-= link_to 'Back', customers_path
+= semantic_attributes_for(@customer) do |s|
+  = s.attributes() do
+    = s.attribute :name
+    = s.attribute :address
+    = s.attribute :cuit
+
+.clear
